@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout home_content;
     BottomNavigationView bottomNavigationView;
 
+
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

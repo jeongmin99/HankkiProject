@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         init();
         SettingListener();
 
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.tab_home);
     }
 
     private void init() {
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 case R.id.tab_personality: {
                     getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.home_content, new PersonalityFragment())
+                            .replace(R.id.home_content, new PersonalFragment())
                             .commit();
                     return true;
                 }

@@ -3,21 +3,26 @@
     <item
         android:id="@+id/tab_matching"
         android:enabled="true"
+        android:icon="@drawable/matching"
         android:title="밥친구 매칭"/>
     <item
         android:id="@+id/tab_cafeteria"
         android:enabled="true"
+        android:icon="@drawable/cafeteria"
         android:title="학식 메뉴"/>
     <item
         android:id="@+id/tab_home"
         android:enabled="true"
+        android:icon="@drawable/home"
         android:title="홈"/>
     <item
         android:id="@+id/tab_restaurant"
         android:enabled="true"
+        android:icon="@drawable/restaurant"
         android:title="식당 추천"/>
     <item
         android:id="@+id/tab_personality"
         android:enabled="true"
+        android:icon="@drawable/profile"
         android:title="나의 한끼"/>
 </menu>
